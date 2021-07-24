@@ -43,7 +43,7 @@ es la siguiente:
 
 <p>
 Los metodos son muy descriptivos por lo tanto no te sera 
-dificil comprender su funccionamiento
+dificil comprender su funcionamiento
 </p>
 
 <h2>Modificadores</h2>
