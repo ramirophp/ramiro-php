@@ -10,4 +10,10 @@ class Format {
 
     }
 
+    public static function lowerText ($value) {
+
+        return strtolower($value);
+
+    }
+
 }

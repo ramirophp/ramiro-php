@@ -11,3 +11,7 @@ function doctype () {
 function upper($value) {
     return Rmo\Format::upperText($value);
 }
+
+function lower($value) {
+    return Rmo\Format::lowerText($value);
+}

@@ -23,7 +23,6 @@
     #$ramiro_php->setElemento();
     #echo $ramiro_php->getElemento();
 #
-
 require_once __DIR__ . '/vendor/autoload.php';
 #//Test 01 Crear el Doctype Con Composer
     /*
@@ -38,4 +37,4 @@ require_once __DIR__ . '/vendor/autoload.php';
 /*Test 01 clase Format
     echo Rmo\Format::upperText('hola');
 */
-echo upper('hola');
+echo lower(upper('hola'));
