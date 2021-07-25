@@ -1,5 +1,15 @@
 {
     "name":"ramirophp/ramirophp",
+    "description": "etiquetas html para las vistas",
+    "type":"library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ramirophp",
+            "email": "ramiro_php@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "Rmo\\":"src/"
@@ -7,5 +17,8 @@
         "files": [
             "src/helpers.php"
         ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
     }
 }
