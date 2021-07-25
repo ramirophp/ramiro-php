@@ -1,0 +1,11 @@
+{
+    "name":"ramirophp/ramirophp",
+    "autoload": {
+        "psr-4": {
+            "Rmo\\":"src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
