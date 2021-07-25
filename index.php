@@ -26,11 +26,13 @@
 
 require_once __DIR__ . '/vendor/autoload.php';
 #//Test 01 Crear el Doctype Con Composer
-    $ramiro_php = new Rmo\ramiro_php();
+    /*$ramiro_php = new Rmo\ramiro_php();
     $ramiro_php->setModificador(0);
     $ramiro_php->setElemento();
-    echo $ramiro_php->getElemento();
+    echo $ramiro_php->getElemento();*/
+    doctype();
 #
 
 //Test 01 clase Format
-echo Rmo\Format::upperText('hola');
+//echo Rmo\Format::upperText('hola');
+echo upper('hola');
