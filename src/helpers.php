@@ -10,13 +10,13 @@ if (!function_exists('doctype')) {
     }
 }
 
-if (!function_exists('doctype')) {
+if (!function_exists('upper')) {
     function upper($value) {
         return Rmo\Format::upperText($value);
     }
 }
 
-if (!function_exists('doctype')) {
+if (!function_exists('lower')) {
     function lower($value) {
         return Rmo\Format::lowerText($value);
     }
