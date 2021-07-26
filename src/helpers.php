@@ -1,7 +1,7 @@
 <?php 
 
 if (!function_exists('doctype')) {
-//<!DOCTYPE html>
+    //<!DOCTYPE html>
     function doctype () {
         $ramiro_php = new Rmo\ramiro_php();
         $ramiro_php->setModificador(0);
